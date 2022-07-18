@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ded7d7;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #3990ed;
+    height: 180px;
+    justify-content: space-between;
+}
+#title{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 180px;
+    width: 110px;
+}
+#title i,h3{
+   font-size: 25px;
+   color: white;
+   
+}
+#title h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+#search{
+    width: 85%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+#search form input{
+    width: 95%;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    text-align:center;
+}
+#search form button{
+    background-color: #3990ed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+#searchform{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    background-color: #ded7d7;
+    width: 100%;
+}
+aside{
+    
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+aside div{
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside h5{
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.filter{
+    width:70px;
+    height: 20px;   
+    background-color: #ded7d7;
+    border: none;
+    
+}
+.filter:hover{
+    background-color: #3990ed;
+}
+
+#addtodo{
+    background-color:#3990ed;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bold;
+}
+#addtodo:hover{
+    background-color: blue;
+}
+#todos{
+    padding-top: 70px;
+    width: 84%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: -70px;
+    display: flex;
+    flex-direction: row;
+}
+#list{
+    width: 50%;
+    height: 550px;
+    border-top:2px solid grey;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+   
+  
+}
+.tasku{
+    height: 80px;
+    border-bottom: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    
+}
+.tasku div h4,p{
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+.tasku div p{
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+#opsione i{
+    margin-left: 5px;
+}
+#mark-as-done{
+    height: 70px;
+    width: 100%;
+    background-color: #ded7d7;
+    border-bottom:2px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#mark-as-done form{
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 70px;
+    width: 100%;
+    background-color: #ded7d7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#mark-as-done form div button{
+        border: none;
+        background-color: #ded7d7;
+        font-size: 25px;
+
+}
+
+#form{
+    width: 50%;
+    height: 550px;
+    border-top: 2px solid grey;
+    border-right: 2px solid grey;
+}
+#add{
+    padding-top:40px ;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#todo-title{
+    height: 70px;
+    width: 600px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+#start{
+    height: 60px;
+    width: 285px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+#end{
+    height: 60px;
+    width: 285px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+#description{
+    height: 70px;
+    width: 600px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+#Save{
+    background-color: #3990ed;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+
+
+}
+
